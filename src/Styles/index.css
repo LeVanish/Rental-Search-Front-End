@@ -1,0 +1,56 @@
+.center-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.align-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:flex-start;
+}
+
+.align-horizontal{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color:darkgrey;
+  color: black;
+  border:black;
+  outline: none;
+}
+.button-link {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #6666cf;
+  font-size: large;
+}
+
+input {
+  background-color:darkgrey;
+  color: black;
+  border:black;
+  outline: none;
+}
+
+::placeholder {
+  color:#545c64;
+}
+
+p {
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+}
+
+

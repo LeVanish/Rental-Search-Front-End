@@ -1,0 +1,11 @@
+.form-grid {
+  display: grid;
+  gap: 16px;
+}
+.field-group{
+  display: flex;
+  gap: 8px;
+}
+.field-group input, .field-group button {
+  width: 100%;
+}

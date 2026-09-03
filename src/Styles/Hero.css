@@ -1,0 +1,21 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-text {
+  position:absolute;
+  top: 20px;
+  left: 180px;
+  text-align: left;
+  color: white;
+}

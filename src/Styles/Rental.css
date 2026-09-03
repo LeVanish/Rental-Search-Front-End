@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.rental-info {
+  flex: 3;
+}
+
+.rating-info {
+  flex: 1;
+}
